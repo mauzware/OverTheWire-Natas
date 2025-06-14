@@ -17,7 +17,7 @@ URL: http://natas5.natas.labs.overthewire.org
 1. Access the site using credentials.
 2. Intercept the request and change the `loggedin` value from 0 to 1.
 
-<img src=""/>
+<img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas5/natas5.png"/>
 
 4. Done.
 

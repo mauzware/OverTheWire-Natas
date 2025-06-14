@@ -18,7 +18,7 @@ URL: http://natas4.natas.labs.overthewire.org
 2. You will be denied.
 3. Open the request in Burp and change `Referer` from `natas4` to `natas5`.
 
-<img src=""/>
+<img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas4/natas4.png"/>
 
 4. Done.
 
@@ -26,7 +26,7 @@ URL: http://natas4.natas.labs.overthewire.org
 
 ## 🏁 Password for the next level
 
-`natas1:<password>`
+`Access granted. The password for natas5 is 0n35PkggAPm2zbEpOU802c0x0Msn1ToK`
 
 ---
 

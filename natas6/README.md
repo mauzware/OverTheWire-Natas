@@ -59,11 +59,11 @@ URL: http://natas6.natas.labs.overthewire.org
    
 4. After visiting `/secret`, you will get a blank page which you can confirm in Burp as well. `304 NOT MODIFIED` tell's us to edit the request.
 
-<img src=""/>
+<img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas6/request.png"/>
 
 5. Now, remove `If-Modified-Since` and `If-None-Match` from the request and send it back to get a secret that you need to input in order to get a pssword.
 
-<img src=""/>
+<img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas6/secret.png"/>
 
 ---
 

@@ -33,7 +33,7 @@ E.g. the password for natas5 is stored in the file /etc/natas_webpass/natas5 and
 | Level | Link |
 |-------|------|
 | Natas0 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas0) |
-| Natas1 | [View Walkthrough]() |
+| Natas1 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas1) |
 | Natas2 | [View Walkthrough]() |
 | ...   | More coming soon |
 

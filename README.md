@@ -28,13 +28,13 @@ E.g. the password for natas5 is stored in the file /etc/natas_webpass/natas5 and
 
 ---
 
-## 📜 Writeups
+## 📜 Walkthroughs
 
 | Level | Link |
 |-------|------|
-| Natas0 | [View Writeup](./Natas0/) |
-| Natas1 | [View Writeup](./Natas1/) |
-| Natas2 | [View Writeup](./Natas2/) |
+| Natas0 | [View Walkthrough]() |
+| Natas1 | [View Walkthrough]() |
+| Natas2 | [View Walkthrough]() |
 | ...   | More coming soon |
 
 Stay tuned as I continue through the challenges. If you're doing Natas too — good luck!

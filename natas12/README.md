@@ -70,15 +70,17 @@ URL:      http://natas12.natas.labs.overthewire.org
 
 - Now, upload our shell and intercept the request with Burp, then change the extension of the shell back to `.php`.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas12/burp.png"/>
 
 - After successful upload, you will get a link to the page of your shell which allows command injection.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas12/page.png"/>
 
 - Visit the shell page and execute command `cat /etc/natas_webpass/natas13` in order to get a password.
 
-  <img src=""/>
+  ```http://natas12.natas.labs.overthewire.org/upload/am74kj8zst.php?cmd=cat /etc/natas_webpass/natas13```
+
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas12/pw.png"/>
 
 ---
 

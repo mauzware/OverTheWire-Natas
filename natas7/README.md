@@ -46,11 +46,11 @@ URL: http://natas7.natas.labs.overthewire.org
 
 - I tested here for LFI `http://natas7.natas.labs.overthewire.org/index.php?page=etc/natas_webpass/natas8` and got this:
 
-<img src=""/>
+<img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas7/lfi.png"/>
 
 - Now, just do the path traversal and you will get a pssword. `http://natas7.natas.labs.overthewire.org/index.php?page=/../../../etc/natas_webpass/natas8`
 
-<img src=""/>
+<img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas7/password.png"/>
 
 
 ---

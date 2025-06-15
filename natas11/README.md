@@ -17,7 +17,7 @@ URL: http://natas11.natas.labs.overthewire.org
 - Access the site using credentials.
 - When you open developer tools, you will see an encoded XOR cookie.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas11/cookie.png"/>
   
 - It is also reflected in the source code.
 
@@ -101,7 +101,7 @@ URL: http://natas11.natas.labs.overthewire.org
 
 - Replace the original cookie value with the new one and BOOM! You got a password.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas11/pw.png"/>
 
 ---
 

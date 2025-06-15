@@ -18,7 +18,7 @@ URL:      http://natas19.natas.labs.overthewire.org
 
 - This is the same level as previous one except cookie is now Hex encoded.
   
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas19/cookie.png"/>
 
   ```
   $ python3 Hex-Encode-Decode.py  

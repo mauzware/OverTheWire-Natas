@@ -32,11 +32,11 @@ URL:      http://natas13.natas.labs.overthewire.org
 
 - You will get a link to your shell, go there.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas13/page.png"/>
 
 - Don't get confused here, everything is working fine so execute the same command from the last level in order to read the password.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas13/pw.png"/>
 
 ---
 

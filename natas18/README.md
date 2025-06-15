@@ -97,7 +97,7 @@ URL:      http://natas18.natas.labs.overthewire.org
 
 - I tried classic `admin:password`.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas18/login.png"/>
 
 - Here, I wrote a script that will brute force the cookie, cookie value is just a integer.
 

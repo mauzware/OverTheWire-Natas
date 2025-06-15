@@ -10,7 +10,7 @@ All challenges were solved in a safe, legal, and educational environment. These 
 
 ## 🔧 Tools & Setup
 - Burp Suite
-- Python & PHP scripts
+- [Python & PHP scripts](https://github.com/mauzware/Random-Scripts/tree/main/Natas)
 - curl & wget
 - Web proxies & debugging
 - Your brain 🧠
@@ -50,7 +50,7 @@ E.g. the password for natas5 is stored in the file /etc/natas_webpass/natas5 and
 | Natas15 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas15) |
 | Natas16 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas16) |
 | Natas17 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas17) |
-| Natas18 | [View Walkthrough]() |
+| Natas18 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas18) |
 | Natas19 | [View Walkthrough]() |
 | Natas20 | [View Walkthrough]() |
 | Natas21 | [View Walkthrough]() |

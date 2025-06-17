@@ -84,7 +84,7 @@ Send a value that:
 
 - Payload: `http://natas23.natas.labs.overthewire.org/?passwd=11iloveyou`
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas23/pw.png"/>
 
 ---
 

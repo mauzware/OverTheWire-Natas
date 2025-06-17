@@ -92,7 +92,49 @@ URL:      http://natas22.natas.labs.overthewire.org
   </html>
   ```
 
-- Done.
+## Natas22 Logic Recap
+
+Here’s the relevant PHP again:
+
+```
+session_start();
+
+if(array_key_exists("revelio", $_GET)) {
+    // only admins can reveal the password
+    if(!($_SESSION and array_key_exists("admin", $_SESSION) and $_SESSION["admin"] == 1)) {
+        header("Location: /");
+    }
+}
+```
+
+## Interpretation:
+
+- If you visit `?revelio=1` and you're **not** admin → **redirect to `/`** (blank page).
+- If you are admin → you’ll see:
+    
+    ```
+    You are an admin. The credentials for the next level are:
+    Username: natas23
+    Password: ...
+    ```
+    
+So the goal is:
+
+1. Become `admin=1` in the session.
+2. Prevent being redirected.
+3. Access `/index.php?revelio=1` **without following the redirect.**
+
+But more realistically: the server is **expecting that `$_SESSION['admin'] = 1`**, so you need a **way to start a session with that set** — either:
+
+- a vulnerable POST form that lets you set session values (like `admin=1`)
+- or you manipulate `PHPSESSID` directly **on a vulnerable server-side session handler**.
+
+In this case, if there’s **no form or way to set `$_SESSION['admin']`**, **then you're expected to do this**:
+
+## Why this works:
+
+- The page **returns a `302 Redirect`** before you see the message.
+- But in the raw response, if you're admin, you’ll still see the full message — as long as you stop the redirect.
 
 ---
 

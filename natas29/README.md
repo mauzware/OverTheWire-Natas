@@ -18,7 +18,7 @@ URL:      http://natas29.natas.labs.overthewire.org
 
 - Here, we have Perl RCE. Endpoint `index.perl?file=` is vulnerable to RCE and you can confirm it with `|ls%00`.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas29/test.png"/>
 
 - Now we just have to read the password. Here's the payload: `|cat+%22/etc/nat%22%22as_webpass/nat%22%22as30%22|tr+%27\n%27+%27+%27`.
 
@@ -35,7 +35,7 @@ URL:      http://natas29.natas.labs.overthewire.org
   # --------------------------------------
   ```
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas29/pw.png"/>
 
 - You can also do it with scripting. Additional details are in the script.
 

@@ -1,4 +1,4 @@
-# OverTheWire — Natas Walkthroughs 🕵️‍♂️
+# OverTheWire — Natas Walkthroughs 
 
 [<img align='center' src="https://github.com/mauzware/mauzware/blob/main/BANNER.png" width="100%"/>](https://github.com/mauzware)
 
@@ -65,7 +65,7 @@ E.g. the password for natas5 is stored in the file /etc/natas_webpass/natas5 and
 | Natas30 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas30) |
 | Natas31 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas31) |
 | Natas32 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas32) |
-| Natas33 | [View Walkthrough] |
+| Natas33 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas33) |
 
 <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas33/congrats.png"/>
 

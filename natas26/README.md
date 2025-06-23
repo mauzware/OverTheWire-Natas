@@ -207,11 +207,11 @@ function __destruct(){
 
 - Copy paste the cookie value and refreshe the page. It will cause an error, but that is good!
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas26/cookie.png"/>
 
 - Now visit `/img/natas26_[PHPSESSID].php` and get the password.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas26/pw.png"/>
   
 ---
 

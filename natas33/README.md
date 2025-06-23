@@ -138,22 +138,22 @@ URL:      http://natas33.natas.labs.overthewire.org
 
 - Now, we are gonna start uploading them one by one. Start with `shell.php`. Upload the file, find the request in History and send it to Repeater, then change the file name back to `shell.php`.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas33/shell.png"/>
 
 - Then we do the same thing with the `natas.phar` file.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas33/natasphar.png"/>
 
 - Lastly, use the same request that we used for phar file, but now change the name to `phar://natas.phar/test.txt`. After sending the request you will see the natas34 password.
 
-  <img src=""/>
+  <img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas33/pw.png"/>
 ---
 
 ## 🏁 Password for the next level
 
 `Password for natas34 is: j4O7Q7Q5er5XFRCepmyXJaWCSIrslCJY`
 
-<img src=""/>
+<img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas33/congrats.png"/>
 
 ---
 

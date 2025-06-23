@@ -67,7 +67,9 @@ E.g. the password for natas5 is stored in the file /etc/natas_webpass/natas5 and
 | Natas32 | [View Walkthrough](https://github.com/mauzware/OverTheWire-Natas/tree/main/natas32) |
 | Natas33 | [View Walkthrough] |
 
-Stay tuned as I continue through the challenges. If you're doing Natas too — good luck!
+<img src="https://github.com/mauzware/OverTheWire-Natas/blob/main/natas33/congrats.png"/>
+
+If you're doing Natas too — good luck!
 
 ---
 
